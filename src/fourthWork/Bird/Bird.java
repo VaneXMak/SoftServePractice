@@ -8,5 +8,5 @@ public abstract class Bird {
         this.feathers = feathers;
     }
 
-    public void fly() {}
+    public abstract void fly();
 }

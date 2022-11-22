@@ -1,5 +1,8 @@
 package fifthWork.passangers;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class FlyingVehicle extends Passengers implements Vehicle {
     public FlyingVehicle() {
     }
@@ -16,3 +19,4 @@ public class FlyingVehicle extends Passengers implements Vehicle {
         System.out.println("I'm landing...");
     }
 }
+
