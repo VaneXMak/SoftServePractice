@@ -1,6 +1,5 @@
-package mySixthWork.StudentComparator;
+package Collections.StudentComparator;
 
-import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 
@@ -47,16 +46,17 @@ public class Student {
     }
 }
 
-class NameComparator implements Comparator<Student> {
-    @Override
-    public int compare(Student st1, Student st2) {
-        return st1.getName().compareTo(st2.getName());
-    }
-}
 
-class CourseComparator implements Comparator<Student> {
-    @Override
-    public int compare(Student st1, Student st2) {
-        return st1.getCourse() - st2.getCourse();
-    }
-}
+//class NameComparator implements Comparator<Student> {
+//    @Override
+//    public int compare(Student st1, Student st2) {
+//        return st1.getName().compareTo(st2.getName());
+//    }
+//}
+
+//class CourseComparator implements Comparator<Student> {
+//    @Override
+//    public int compare(Student st1, Student st2) {
+//        return st1.getCourse() - st2.getCourse();
+//    }
+//}

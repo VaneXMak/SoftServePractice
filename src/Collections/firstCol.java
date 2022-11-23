@@ -1,4 +1,4 @@
-package mySixthWork;
+package Collections;
 
 import java.util.*;
 

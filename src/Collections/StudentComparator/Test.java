@@ -1,4 +1,4 @@
-package mySixthWork.StudentComparator;
+package Collections.StudentComparator;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -13,9 +13,9 @@ public class Test {
         students.add(new Student("Mark", 4));
         students.add(new Student("Vadym", 4));
 
-        Collections.sort(students, new NameComparator());
+        Collections.sort(students, (Student st1, Student st2) -> st1.getName().compareTo(st2.getName()));
         System.out.println(students);
-        Collections.sort(students, new CourseComparator());
+        Collections.sort(students, (Student st1, Student st2) -> st1.getCourse() - st2.getCourse());
         System.out.println(students);
     }
 }
